@@ -1,4 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Lato&family=Poppins&family=Recursive:wght@500;600;700;900&display=swap');
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+}
 .fazal_Haute_couture{
     background-image: url("gif_caftan.gif");
     background-repeat: no-repeat;
@@ -8,12 +11,12 @@
     width: 100%;
 }
 
-.fazal_Haute_couture button{
+.discover{
     border-radius: 0;
     padding-inline: 2rem;
 }
 
-.fazal_Haute_couture .content{
+.content{
     height: 100vh;
 }
 
@@ -27,11 +30,33 @@
 }
 
 #accessories{
-
     background-image: url("gif_accessoire.gif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
     width: 100%;
+}
+
+#contact_us{
+    background-image: url("tissu.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.insta-card{
+    width: 40%;
+    height: 30%;
+    background-color: black;
+}
+
+.insta-logo{
+    height: 100px;
+}
+
+.insta-card a {
+    text-decoration: none;
 }
